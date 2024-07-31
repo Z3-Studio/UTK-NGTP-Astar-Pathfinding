@@ -1,0 +1,26 @@
+{
+  "name": "com.z3.node-graph.astar-pathfinding",
+  "displayName": "Z3 NGTP Astar Pathfinding",
+  "version": "0.1.0-alpha",
+  "description": "Node Graph Task Pack for A* pathfinding in Unity.",
+  "unity": "2021.3",
+  "documentationUrl": "https://github.com/Z3-Studio/UTK-NGTP-Astar-Pathfinding/blob/master/README.md",
+  "changelogUrl": "https://github.com/Z3-Studio/UTK-NGTP-Astar-Pathfinding/blob/master/CHANGELOG.md",
+  "licensesUrl": "https://github.com/Z3-Studio/UTK-NGTP-Astar-Pathfinding/blob/master/LICENSE.md",
+  "license": "MIT",
+  "dependencies": {
+    "com.z3.node-graph": "0.1.0-beta",
+    "com.arongranberg.astar": ""
+  },
+  "keywords": [
+    "Node Graph",
+    "Pathfinding",
+    "A*",
+    "Astar Pathfinding",
+    "Unity"
+  ],
+  "author": {
+    "name": "Z3 Studio",
+    "url": "https://z3-studio.com/"
+  }
+}
