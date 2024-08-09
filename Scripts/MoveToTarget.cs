@@ -10,8 +10,8 @@ namespace Z3.NodeGraph.TaskPack.AstarPathfinding
     public class MoveToTarget : ActionTask
     {
         [ParameterDefinition(AutoBindType.SelfBind)]
-        public Parameter<AIPath> aiPath;
-        public Parameter<Vector3> target;
+        [SerializeField] private Parameter<AIPath> aiPath;
+        [SerializeField] private Parameter<Vector3> target;
 
         public override string Info => $"Move To {target}";
 

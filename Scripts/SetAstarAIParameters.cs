@@ -21,8 +21,8 @@ namespace Z3.NodeGraph.TaskPack.AstarPathfinding
     public class SetAstarAIParameters : ActionTask
     {
         [ParameterDefinition(AutoBindType.SelfBind)]
-        public Parameter<AIPath> aiPath;
-        public Parameter<AIPathParameters> aiPathParameters;
+        [SerializeField] private Parameter<AIPath> aiPath;
+        [SerializeField] private Parameter<AIPathParameters> aiPathParameters;
 
         public override string Info => $"AstarAI Parameters = {aiPathParameters}";
 

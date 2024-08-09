@@ -10,9 +10,9 @@ namespace Z3.NodeGraph.TaskPack.AstarPathfinding
     public class Flee : ActionTask
     {
         [ParameterDefinition(AutoBindType.SelfBind)]
-        public Parameter<AIPath> agent;
-        public Parameter<Vector3> target;
-        public Parameter<float> escapeDistance;
+        [SerializeField] private Parameter<AIPath> agent;
+        [SerializeField] private Parameter<Vector3> target;
+        [SerializeField] private Parameter<float> escapeDistance;
 
         private AIPath Agent => agent.Value;
 
