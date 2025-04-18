@@ -10,7 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "com.z3.node-graph": "0.1.0-beta",
-    "com.arongranberg.astar": ""
+    "com.arongranberg.astar": "5.3.4"
   },
   "keywords": [
     "Node Graph",
